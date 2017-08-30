@@ -4,6 +4,9 @@ title: Bobong Mahirap
 permalink: pretty
 
 collections:
+  trying_hard_poetry:
+    title: Trying Hard Poetry
+    output: true
   wrong_ramblings:
     title: Wrong Ramblings
     output: true
