@@ -7,12 +7,22 @@ permalink: pretty
 collections:
   trying_hard_poetry:
     title: Trying Hard Poetry
+    description: At least, trying hard.
     output: true
   wrong_ramblings:
     title: Wrong Ramblings
+    description: It is just plain wrong.
     output: true
 
 defaults:
+  - scope:
+      path: _trying_hard_poetry
+    values:
+      layout: item
+  - scope:
+      path: _wrong_ramblings
+    values:
+      layout: item
   - scope:
       path: ""
     values:
